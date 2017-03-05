@@ -6,3 +6,5 @@ Installation:
 3) npm i
 4) npm start
 5) open http://localhost:3000
+
+documentation in TODO
