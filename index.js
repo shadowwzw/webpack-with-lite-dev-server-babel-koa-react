@@ -4,6 +4,6 @@ liteDevServer({
     watchFolders: ["src", "api-on-koa"],
     liveReloadDelay: 1000,
     proxy: [
-        { path: "api", host: "localhost", port: "8888" },
+        { path: /^\/api/, host: "localhost", port: "8888" },
     ]
 });
